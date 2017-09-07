@@ -2,24 +2,23 @@
 <!--Create a form for people to contact me. Include a submit button-->
 <head>
   <title>Contact</title>
-  <link href="OwensPortfolio/Styles/styles.css" type="text/css" rel="stylesheet" />
+  <link href="/Users/Cana/Desktop/OwensPortfolio/styles/styles.css" type="text/css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+  <script src="/Users/Cana/Desktop/OwensPortfolio/java/add-content.js"></script>
 </head>
   <body>
     <div>
       <h1 class="heading">Contact</h1>
+    <div class="topnav">
+      <a class="active" href="/Users/Cana/Desktop/OwensPortfolio/index.html">Home</a>
+      <a href="/Users/Cana/Desktop/OwensPortfolio/contact page/index.html">Contact</a>
+      <a href="/Users/Cana/Desktop/OwensPortfolio/about page/index.html">About</a>
     </div>
-    </div>
-    <div class="homeLink">
-      <a href="OwensPortfolio/index.html">Home</a>
-    </div>
-      <div class="aboutMe">
-          <a href="OwensPortfolio/about page/index.html">About Me</a>
-    </div>
+
     <div>
       <p class="formMessage">Like what you see? Looking for a way to contact me? Enter your comments below and shoot me an email.</p>
     </div>
-    <!-- <form action=> this was easier to style as one group with css-->
+    <!-- the contact me form-->
     <fieldset>
       <legend>Comments</legend>
         <label>Name:<br />
@@ -32,10 +31,14 @@
           <textarea name="comments">Enter your comments...</textarea></label>
           <input id="submit" type="submit" name="submit" value="submit" />
       </fieldset>
-    <!-- </form> -->
-    <div>
-    <!--make it pretty with CSS-->
-    <!--after submission, show a thank message-->
+  <!-- js text entry box -->
+
+    <div class="inputJavaColor">
+      <h2>What's Your Favorite Color?</h2>
+      <p>Type your favorite color in the box and hit submit</p>
+      <input id="shades">
+      <button type="button" onclick="myHue()">Submit</button>
+      <p id="demo"></p>
     </div>
   </body>
 </html>

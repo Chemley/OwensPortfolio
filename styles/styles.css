@@ -2,6 +2,12 @@
   font-family: 'Raleway', sans-serif;
 }
 
+body {
+    background-image: url("/Users/Cana/Desktop/OwensPortfolio/images/ws_Circles_Glare_Shadow_Red_1920x1200.jpg");
+    padding: 0px;
+    margin: 0px;
+}
+
 h1.heading {
   font-weight: bold;
   text-transform: uppercase;
@@ -10,7 +16,8 @@ h1.heading {
   top: 0px;
   left: 0px;
   bottom: 30px;
-  border: 5px solid green;
+  border-top: 5px solid #E818C1;
+  border-bottom: 5px solid #E818C1;
   background-color: white;
   width: 960px;
   font-size: 45px;
@@ -36,8 +43,10 @@ h3.underHeading {
   width: 300px;
   padding: 10px;
   margin: 10px 30px;
-  border: 5px solid orange;
-  position: relative;
+  border: 5px solid red;
+  border-radius: 5px;
+  background-color: white;
+  float: left;
   top: 150px;
 }
 
@@ -48,6 +57,7 @@ div.writingList, div.volunteerList {
   margin: 20px 30px;
   border: 5px solid #E83B27;
   float: right;
+  background-color: white;
 }
 
 /* .volunteerList {
@@ -60,7 +70,7 @@ div.writingList, div.volunteerList {
 }*/
 
 a:link {
-  color: white;
+  color: red;
   text-decoration: none;
 }
 
@@ -92,12 +102,17 @@ a:active {
   color: darkcyan;
 }
 
-.contactMeLink, .homeLink, .aboutMe {
+/* the topnav helps to create the navigation bar. Where if you hover over the button it will change color.*/
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   font-size: 25px;
-  float: left;
   height: 30px;
   width: 200px;
   padding: 10px;
@@ -107,7 +122,7 @@ a:active {
   border-radius: 7px;
 }
 
-.contactMeLink:hover, .contactMeLink:focus, .homeLink:hover, .aboutMe:hover, .aboutMe:focus {
+.topnav a:hover {
   text-align: center;
   font-size: 25px;
   float: left;
@@ -189,7 +204,6 @@ fieldset {
   position: absolute;
   top: 300px;
   float: left;
-
 }
 
 .formMessage, .writingMessage {
@@ -204,4 +218,27 @@ legend {
   background-color: white;
   border: 3px dashed none;
   border-radius: 5px;
+}
+
+.inputJavaNumber {
+  color: #9C0CE8;
+  background-color: white;
+  border: 3px solid #08F8FF;
+  border-radius: 5px;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.inputJavaColor {
+  color: #9C0CE8;
+  background-color: white;
+  border: 3px solid #08F8FF;
+  border-radius: 5px;
+  position: absolute;
+  top: 300px;
+  left: 800px;
+  margin-left: 20px;
 }
