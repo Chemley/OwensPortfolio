@@ -50,7 +50,7 @@ div.writingList, div.volunteerList {
   float: right;
 }
 
-/* div.volunteerList {
+/* .volunteerList {
   float: left;
   height: 300px;
   width: 600px;
