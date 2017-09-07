@@ -1,0 +1,207 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1.heading {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: blue;
+  top: 0px;
+  left: 0px;
+  bottom: 30px;
+  border: 5px solid green;
+  background-color: white;
+  width: 960px;
+  font-size: 45px;
+}
+
+h2.subHeading {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: green;
+}
+
+h3.underHeading {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: pink;
+}
+
+.quote {
+  text-align: center;
+  height: 100px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px 30px;
+  border: 5px solid orange;
+  position: relative;
+  top: 150px;
+}
+
+div.writingList, div.volunteerList {
+  height: 400px;
+  width: 600px;
+  padding: 10px;
+  margin: 20px 30px;
+  border: 5px solid #E83B27;
+  float: right;
+}
+
+/* div.volunteerList {
+  float: left;
+  height: 300px;
+  width: 600px;
+  padding: 10px;
+  margin: 0px 30px;
+  border: 5px dotted limeGreen;
+}*/
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+/*a:hover {
+  color: red;
+  text-decoration: underline;
+  border: 5px solid red;
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  height: 30px;
+  width: 200px;
+  padding: 10px;
+  margin: 0px 10px;
+  border-radius: 7px;
+}*/
+
+a:active {
+  color: darkcyan;
+}
+
+.contactMeLink, .homeLink, .aboutMe {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  height: 30px;
+  width: 200px;
+  padding: 10px;
+  margin: 0px 10px;
+  border: 5px solid red;
+  background-color: red;
+  border-radius: 7px;
+}
+
+.contactMeLink:hover, .contactMeLink:focus, .homeLink:hover, .aboutMe:hover, .aboutMe:focus {
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  height: 30px;
+  width: 200px;
+  padding: 10px;
+  margin: 0px 10px;
+  color: red;
+  border: 5px solid red;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.volunteerLink {
+  text-align: center;
+  font-size: 25px;
+  float: left;
+  height: 150px;
+  width: 600px;
+  padding: 10px;
+  margin: 0px 10px;
+  border: 5px solid red;
+  background-color: royalblue;
+  z-index: auto;
+  opacity: 0.65;
+  border-radius: 7px;
+  position: absolute;
+  top: 300px;
+}
+
+/* div.homeLink {
+ text-align: center;
+  font-size: 25px;
+  float: left;
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  margin: 0px 10px;
+  border: 5px solid red;
+  background-color: red;
+  border-radius: 7px;
+}*/
+
+.imageHightale, .imageOctoTypewriter, .imageBunnyville {
+  border: 3px solid black;
+  border-radius: 3px;
+  box-shadow: 3px 3px #2B2B2B;
+  float: right;
+  margin: 10px 10px;
+}
+
+input#submit {
+  background-color: #FFDA19;
+  border: 2px solid #FFDA19;
+  border-radius: 5px;
+  color: #9C0CE8;
+}
+
+input#submit:focus, input#submit:hover {
+  background-color: #9C0CE8;
+  border: 2px solid #FFDA19;
+  border-radius: 5px;
+  color: #FFDA19
+}
+
+input, textarea {
+  font-size: 16px;
+  border: 2px solid #E87B18;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  color: #9C0CE8;
+  background-color: white;
+  border: 3px solid #08F8FF;
+  border-radius: 5px;
+  position: absolute;
+  top: 300px;
+  float: left;
+
+}
+
+.formMessage, .writingMessage {
+  position: absolute;
+  top: 200px;
+  float: left;
+}
+
+legend {
+  font-size: 24px;
+  color: #9C0CE8;
+  background-color: white;
+  border: 3px dashed none;
+  border-radius: 5px;
+}
