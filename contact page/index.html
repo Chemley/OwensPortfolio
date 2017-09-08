@@ -4,7 +4,7 @@
   <title>Contact</title>
   <link href="/Users/Cana/Desktop/OwensPortfolio/styles/styles.css" type="text/css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
-  <script src="/Users/Cana/Desktop/OwensPortfolio/java/add-content.js"></script>
+  <script src="/Users/canaowens/Desktop/OwensPortfolio/java/add-content.js"></script>
 </head>
   <body>
     <div>
@@ -32,13 +32,18 @@
           <input id="submit" type="submit" name="submit" value="submit" />
       </fieldset>
   <!-- js text entry box -->
-
     <div class="inputJavaColor">
-      <h2>What's Your Favorite Color?</h2>
-      <p>Type your favorite color in the box and hit submit</p>
-      <input id="shades">
-      <button type="button" onclick="myHue()">Submit</button>
+      <p>Type your name in the field.</p>
+      First Name: <input type="text" id="myText" value="Mi">
+      <button onclick="myFunction()">Try it</button>
       <p id="demo"></p>
+
+      <script>
+      function myFunction() {
+          var x = document.getElementById("myText").value;
+          document.getElementById("demo").innerHTML = x + "!";
+      }
+      </script>
     </div>
   </body>
 </html>
