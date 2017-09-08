@@ -174,14 +174,14 @@ a:active {
   margin: 10px 10px;
 }
 
-input#submit {
+input#submit, button {
   background-color: #FFDA19;
   border: 2px solid #FFDA19;
   border-radius: 5px;
   color: #9C0CE8;
 }
 
-input#submit:focus, input#submit:hover {
+input#submit:focus, input#submit:hover, button:hover, button:focus {
   background-color: #9C0CE8;
   border: 2px solid #FFDA19;
   border-radius: 5px;

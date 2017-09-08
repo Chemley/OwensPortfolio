@@ -33,15 +33,14 @@
       </fieldset>
   <!-- js text entry box -->
     <div class="inputJavaColor">
-      <p>Type your name in the field.</p>
-      First Name: <input type="text" id="myText" value="Mi">
-      <button onclick="myFunction()">Try it</button>
+      <h3>Change "Mickey" to your name then press submit.</h3>
+      First Name: <input type="text" id="myText" value="Mickey">
+      <button onclick="myFunction()">Submit</button>
       <p id="demo"></p>
-
       <script>
       function myFunction() {
           var x = document.getElementById("myText").value;
-          document.getElementById("demo").innerHTML = x + "!";
+          document.getElementById("demo").innerHTML = "Hello " + x + "!";
       }
       </script>
     </div>
